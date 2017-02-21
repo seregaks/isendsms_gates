@@ -18,14 +18,14 @@
 		<supportdtdelivery>0</supportdtdelivery>
 		<supportunicode>1</supportunicode>
 		<captcha>1</captcha>
-		<gateurl>https://www.orangetext.md/Default.aspx?lang=ru</gateurl>
+		<gateurl>https://www.orangetext.md/ru</gateurl>
 	</info>
 	<classprops>
 		<encoding>UTF-8</encoding>
 		<sendinit>eval(begin HTTP.Referer:='http://www.orange.md'; Result:=true; end;)</sendinit>
-		<pageurl>https://www.orangetext.md/Default.aspx?lang=ru</pageurl>
+		<pageurl>https://www.orangetext.md/ru</pageurl>
 		<imageurl>eval('https://www.orangetext.md/CaptchaImage.axd?guid=' + HTML.RegExp('CaptchaImage.axd\?guid=(.*?)&quot;',1))</imageurl>
-		<posturl>https://www.orangetext.md/Default.aspx?lang=ru</posturl>
+		<posturl>https://www.orangetext.md/ru</posturl>
 		<postdata>eval(
 					begin
 						PostData.Add('__VIEWSTATE',Html.RegExp('id=&quot;__VIEWSTATE&quot; value=&quot;(.*?)&quot;',1));
